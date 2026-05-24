@@ -1,0 +1,119 @@
+:root {
+    /* Fondo ultra oscuro con un toque de azul profundo */
+    --fondo: #010409; 
+    --panel: rgba(2, 6, 23, 0.9);
+    --borde: rgba(0, 217, 255, 0.15);
+
+    --texto: #f0f6fc;
+    --texto2: #8b949e;
+
+    --cyan: #00d9ff;
+    --cyan-glow: rgba(0, 217, 255, 0.5);
+}
+
+/* ===================================================
+   FONDO GENERAL (DEEP DARK)
+=================================================== */
+body {
+    background-color: var(--fondo);
+    /* Eliminamos gradientes claros para mantener la oscuridad absoluta */
+    background-image: 
+        radial-gradient(
+            circle at 50% 0%, 
+            rgba(0, 217, 255, 0.03) 0%, 
+            transparent 70%
+        );
+    background-attachment: fixed;
+    color: var(--texto);
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* ===================================================
+   TÍTULOS IMPACTANTES (ULTRA NEON)
+=================================================== */
+.md-typeset h1 {
+    font-size: 3rem !important; /* Más grande y audaz */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff !important;
+    text-shadow: 
+        0 0 10px var(--cyan-glow),
+        0 0 20px rgba(0, 217, 255, 0.2);
+    margin-bottom: 40px !important;
+    border-left: 5px solid var(--cyan);
+    padding-left: 20px;
+}
+
+.md-typeset h2 {
+    font-size: 2rem !important;
+    color: var(--cyan) !important;
+    text-shadow: 0 0 8px var(--cyan-glow);
+    font-weight: 800;
+}
+
+/* ===================================================
+   TABLAS NEÓN "CYBER-GRID"
+=================================================== */
+.md-typeset table:not([class]) {
+    background: #0d1117 !important; /* Un gris-azul muy oscuro para las celdas */
+    border: 1px solid var(--cyan) !important;
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.1); /* Resplandor exterior */
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+    background: rgba(0, 217, 255, 0.15) !important;
+    color: var(--cyan) !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: 1px solid var(--cyan) !important;
+}
+
+.md-typeset table:not([class]) td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    padding: 18px !important;
+}
+
+/* Efecto de línea de escaneo al pasar el mouse por la tabla */
+.md-typeset table:not([class]) tr:hover {
+    background: linear-gradient(90deg, transparent, rgba(0, 217, 255, 0.08), transparent) !important;
+}
+
+/* ===================================================
+   TARJETAS Y PANELES (TIPO VIDRIO OSCURO)
+=================================================== */
+.sim-panel, .result-card {
+    background: #0d1117;
+    border: 1px solid var(--borde) !important;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sim-panel:hover, .result-card:hover {
+    border-color: var(--cyan) !important;
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.2);
+    transform: translateY(-8px);
+}
+
+/* ===================================================
+   SCROLLBAR (A JUEGO CON EL FONDO OSCURO)
+=================================================== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--fondo);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #161b22;
+    border: 2px solid var(--fondo);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--cyan);
+}
