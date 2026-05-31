@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#proyecto-defensa-planetaria-asteroide-apophis" class="md-skip">
+        <a href="#proyecto-asteroide-apophis" class="md-skip">
           Skip to content
         </a>
       
@@ -253,7 +253,7 @@
   
     
   
-  📐 Teoría (Newton TP)
+  📐 Teoría
 
       </a>
     </li>
@@ -348,7 +348,7 @@
   
     
   
-  💥 Análisis de Impacto
+  💥 Análisis
 
       </a>
     </li>
@@ -386,7 +386,7 @@
   
     
   
-  👤 Acerca del Autor
+  👤 Autor
 
       </a>
     </li>
@@ -504,10 +504,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivo-del-proyecto" class="md-nav__link">
+  <a href="#el-proyecto-integra" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🎯 Objetivo del Proyecto
+        El proyecto integra:
       
     </span>
   </a>
@@ -529,7 +529,7 @@
   <a href="#metodo-utilizado" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🧠 Método Utilizado
+        Método Utilizado
       
     </span>
   </a>
@@ -585,7 +585,7 @@
   <span class="md-ellipsis">
     
   
-    📐 Teoría (Newton TP)
+    📐 Teoría
   
 
     
@@ -720,7 +720,7 @@
   <span class="md-ellipsis">
     
   
-    💥 Análisis de Impacto
+    💥 Análisis
   
 
     
@@ -774,7 +774,7 @@
   <span class="md-ellipsis">
     
   
-    👤 Acerca del Autor
+    👤 Autor
   
 
     
@@ -825,10 +825,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivo-del-proyecto" class="md-nav__link">
+  <a href="#el-proyecto-integra" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🎯 Objetivo del Proyecto
+        El proyecto integra:
       
     </span>
   </a>
@@ -850,7 +850,7 @@
   <a href="#metodo-utilizado" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🧠 Método Utilizado
+        Método Utilizado
       
     </span>
   </a>
@@ -874,14 +874,11 @@
 
 
 
-<h1 id="proyecto-defensa-planetaria-asteroide-apophis">☄️ Proyecto: Defensa Planetaria – Asteroide Apophis</h1>
+<h1 id="proyecto-asteroide-apophis">☄️ Proyecto: Asteroide Apophis</h1>
 <h2 id="introduccion">Introducción</h2>
-<p>Este proyecto implementa el método de Newton-Raphson multivariable para aproximar la trayectoria orbital del asteroide 99942 Apophis mediante ecuaciones no lineales basadas en las leyes de Kepler.</p>
-<p>La simulación fue desarrollada en lenguaje C y permite calcular numéricamente la anomalía excéntrica y la distancia radial del asteroide utilizando procesos iterativos.</p>
+<p>Para este proyecto elegimos el asteroide Apophis y usamos las leyes de Kepler para ver su trayectoria. Como son ecuaciones no lineales y no se pueden resolver exactas, aplicamos lo que siempre nos dice el profe: que los métodos numéricos son para aproximar. Así que armamos un código en C con el método de Newton-Raphson multivariable para ir calculando, paso a paso, la anomalía excéntrica y la distancia radial."</p>
 <hr />
-<h2 id="objetivo-del-proyecto">🎯 Objetivo del Proyecto</h2>
-<p>El objetivo principal es aplicar métodos numéricos para resolver ecuaciones orbitales que no pueden despejarse algebraicamente de forma directa.</p>
-<p>El proyecto integra:</p>
+<h2 id="el-proyecto-integra">El proyecto integra:</h2>
 <ul>
 <li>Métodos numéricos.</li>
 <li>Álgebra matricial.</li>
@@ -891,8 +888,8 @@
 </ul>
 <hr />
 <h2 id="asteroide-99942-apophis">☄️ Asteroide 99942 Apophis</h2>
-<p>Apophis es un asteroide cercano a la Tierra clasificado como NEO (Near Earth Object).</p>
-<p>El 13 de abril de 2029 realizará uno de los acercamientos más importantes registrados para un objeto de este tipo.</p>
+<p>Elegimos a Apophis porque es un asteroide cercano a la Tierra, de los que se clasifican como NEO. </p>
+<p>Lo interesante de este objeto es que el 13 de abril de 2029 va a realizar uno de los acercamientos más importantes y cercanos que se tengan registrados.</p>
 <table>
 <thead>
 <tr>
@@ -920,7 +917,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="metodo-utilizado">🧠 Método Utilizado</h2>
+<h2 id="metodo-utilizado">Método Utilizado</h2>
 <p>Para aproximar la solución orbital se utilizó el método de Newton-Raphson multivariable aplicado al siguiente sistema no lineal:</p>
 <div class="arithmatex">\[
 f_1(E,r)=E-e\sin(E)-M
@@ -930,12 +927,12 @@ f_2(E,r)=r-a(1-e\cos(E))
 \]</div>
 <div align="center">
   <video width="100%" style="max-width: 800px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,255,255,0.3);" autoplay muted loop playsinline>
-    <source src="assets/60700-495934974_medium.mp4" type="video/mp4">
+    <source src="assets/292107_medium(1).mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de videos.
   </video>
 </div>
 
-<p>El proceso iterativo se ejecuta automáticamente mediante programación en lenguaje C hasta alcanzar una tolerancia de:</p>
+<p>El proceso iterativo se ejecuta mediante programación en lenguaje C hasta alcanzar una tolerancia de:</p>
 <div class="arithmatex">\[
 10^{-6}
 \]</div>
