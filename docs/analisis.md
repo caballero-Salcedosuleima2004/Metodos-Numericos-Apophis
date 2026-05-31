@@ -1,16 +1,14 @@
-# ☄️ Análisis de Impacto: Asteroide Apophis 99942
+# ☄️ Análisis:
 
 ## ¿Para qué sirve realmente este programa?
 
 Para poder calcular dónde estará el Asteroide y qué trayectoria sigue alrededor del Sol.
 
-El problema es que las ecuaciones que describen su movimiento no se pueden resolver fácilmente con una fórmula directa. Por eso se usan métodos numéricos como Newton-Raphson.
-
 Lo que hace este programa es tomar una aproximación inicial de la posición del asteroide e ir corrigiéndola poco a poco hasta encontrar un resultado mucho más preciso.
 
 ---
 
-## 🧮 ¿Qué está calculando el método?
+## ¿Qué está calculando el método?
 
 El programa calcula principalmente dos cosas:
 
@@ -30,7 +28,7 @@ Ese valor indica qué tan lejos está Apophis del Sol durante la simulación.
 
 ---
 
-## 🔄 ¿Qué significa que el método converja?
+## ¿Qué significa que el método converja?
 
 Al iniciar el programa, los valores iniciales todavía no son exactos.
 
@@ -46,7 +44,7 @@ En este caso el método convergió en 3 iteraciones, lo que significa que:
 
 ---
 
-## 📈 Resultados Obtenidos
+## Resultados Obtenidos
 
 | Variable | Resultado |
 |---|---|
@@ -57,7 +55,7 @@ En este caso el método convergió en 3 iteraciones, lo que significa que:
 
 ---
 
-## 📌 ¿Qué significan estos resultados?
+## ¿Qué significan estos resultados?
 
 El valor de $(E)$ indica la posición aproximada del asteroide dentro de su órbita.
 
@@ -73,7 +71,7 @@ La parte importante del proyecto no es solamente obtener números, sino demostra
 
 ---
 
-## 💻 Importancia del programa
+## Importancia del programa
 
 Sin métodos numéricos, resolver este tipo de ecuaciones orbitales tomaría muchísimo tiempo y sería muy complicado hacerlo a mano.
 

@@ -1,4 +1,4 @@
-# 📈 Análisis de Convergencia
+# 📈 Convergencia
 
 ## Método Iterativo
 
@@ -23,7 +23,7 @@ $$
 
 ## 📊 Resultados de la Ejecución
 
-La ejecución del programa mostró convergencia estable después de 3 iteraciones.
+La ejecución del programa convergio despues de 3 iteraciones.
 
 | Variable | Resultado |
 |---|---|
@@ -33,10 +33,6 @@ La ejecución del programa mostró convergencia estable después de 3 iteracione
 
 ---
 
-## 📌 Interpretación
+## Interpretación
 
-Los resultados obtenidos muestran que el método converge rápidamente utilizando valores iniciales adecuados.
-
-La matriz Jacobiana permite calcular las correcciones necesarias en cada iteración para aproximar la solución del sistema.
-
-El uso de programación en C automatiza el proceso numérico y reduce considerablemente el tiempo de cálculo.
+Como conclusión, vimos que el método converge bastante rápido si le metemos valores iniciales buenos. La matriz Jacobiana hace bien su trabajo calculando las correcciones en cada iteración para irnos acercando a la solución. Además, haberlo programado en C nos ahorró muchísimo tiempo, ya que automatiza todo el proceso numérico de golpe.

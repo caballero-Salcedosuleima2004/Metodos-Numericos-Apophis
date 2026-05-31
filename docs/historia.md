@@ -1,12 +1,8 @@
-# 📜 De Kepler a la Mecánica Orbital Moderna
+# Historia de Kepler
 
 ## El aporte de Johannes Kepler
 
-A principios del siglo XVII, Johannes Kepler estudió el movimiento planetario utilizando las observaciones astronómicas de Tycho Brahe.
-
-Después de múltiples cálculos, concluyó que los planetas no describen órbitas circulares, sino órbitas elípticas.
-
-Las leyes formuladas por Kepler siguen siendo fundamentales para el estudio de trayectorias orbitales.
+Para entender cómo se mueve, nos basamos en el aporte de Johannes Kepler. A principios del siglo XVII, él analizó los datos de Tycho Brahe y descubrió algo clave: los planetas (y asteroides) no se mueven en círculos perfectos, sino en órbitas elípticas. Por eso, sus leyes siguen siendo la base para calcular cualquier trayectoria en el espacio.
 
 ---
 

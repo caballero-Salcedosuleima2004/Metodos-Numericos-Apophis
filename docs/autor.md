@@ -1,6 +1,4 @@
-# 👤Autor
-
-## Información 
+# 👤Presenta:
 
 | Dato | Información |
 |---|---|
@@ -11,34 +9,9 @@
 
 ---
 
-## 📚 Descripción del Proyecto
-
-Este proyecto presenta una aplicación del método de Newton-Raphson multivariable para resolver un sistema no lineal relacionado con la trayectoria orbital del asteroide 99942 Apophis.
-
-La implementación combina:
-
-- Métodos numéricos.
-- Programación en lenguaje C.
-- Álgebra matricial.
-- Modelado matemático.
-- Simulación orbital.
-
----
-
-## 🛠️ Herramientas Utilizadas
-
-| Herramienta | Uso |
-|---|---|
-| Lenguaje C | Implementación numérica |
-| GCC | Compilación |
-| Visual Studio Code | Desarrollo |
-| MkDocs | Documentación |
-| Markdown | Formato de contenido |
-
----
 
 ## 🎯 Objetivo Académico
 
-El objetivo del proyecto es aplicar métodos numéricos para resolver ecuaciones no lineales mediante programación y análisis iterativo.
+El objetivo de este proyecto es unir la programación y las matemáticas para resolver un problema práctico.
 
-El trabajo integra conceptos de cálculo numérico, álgebra matricial y modelado matemático computacional.
+Más allá de la teoría de la clase, el verdadero propósito es demostrar cómo los métodos numéricos se aplican en el mundo real. Nos sirven como una herramienta clave para modelar, simular y entender situaciones reales, como en este caso, seguirle la pista a un asteroide.

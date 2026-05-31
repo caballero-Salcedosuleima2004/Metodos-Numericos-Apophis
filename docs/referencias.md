@@ -1,11 +1,6 @@
-# 📚 Referencias y Fuentes de Información
+# Referencias y Fuentes de Información
 
-## Introducción
-
-Para desarrollar este proyecto se consultaron bases de datos astronómicas oficiales, documentación científica y material relacionado con mecánica orbital y métodos numéricos.
-
-Los parámetros orbitales utilizados para la simulación del asteroide Apophis fueron tomados y adaptados a las unidades empleadas en el programa desarrollado en C.
-
+Los parámetros orbitales utilizados para la simulación del asteroide Apophis fueron tomados y redondeados para tener una mejor manipulacoin de ellos.
 ---
 
 # 🌎 Bases de Datos Astronómicas
@@ -29,11 +24,9 @@ Datos consultados:
 
 ---
 
-# 📖 Referencias Matemáticas
+# Referencias Matemáticas
 
 ## Método de Newton-Raphson
-
-Se utilizó bibliografía y teoría de métodos numéricos para implementar el algoritmo iterativo multivariable.
 
 Temas utilizados:
 
@@ -45,7 +38,7 @@ Temas utilizados:
 
 ---
 
-# 🛰️ Referencias sobre Mecánica Orbital
+# Referencias sobre Mecánica Orbital
 
 ## Leyes de Kepler
 
@@ -54,8 +47,6 @@ Las ecuaciones orbitales implementadas en el proyecto se basan en:
 1. Primera Ley de Kepler
 2. Segunda Ley de Kepler
 3. Ecuación de Kepler
-
-La ecuación principal utilizada fue:
 
 
 
@@ -70,12 +61,5 @@ La ecuación principal utilizada fue:
 | Visual Studio Code | Desarrollo del proyecto |
 | MkDocs Material | Documentación web |
 | MathJax | Renderizado matemático |
-| Chart.js | Gráficas del simulador |
 
 ---
-
-# 📌 Observaciones
-
-Algunos valores fueron redondeados para facilitar las simulaciones numéricas y mantener estabilidad en las iteraciones del método de Newton-Raphson.
-
-El objetivo del proyecto es educativo y busca mostrar cómo los métodos numéricos pueden aplicarse al cálculo orbital y a la simulación de trayectorias astronómicas.
